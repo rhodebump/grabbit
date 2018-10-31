@@ -2,3 +2,5 @@
 
 Once you have cloned the project, run following command(from project root directory) to build and upload the Grabbit to your AEM instance
 `gradlew clean build install refreshAllBundles`
+
+Please note that "gradlew" refers to the local gradle wrapper script (distributed as part of gradle).  The current directory "." must either be in your path or run as "./gradlew" ie (./gradlew clean build install refreshAllBundles)
